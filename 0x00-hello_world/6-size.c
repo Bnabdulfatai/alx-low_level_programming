@@ -1,20 +1,19 @@
 #include <stdio.h>
 /**
- * main - This is a program that print various computer types
- * Return: 0(if our return value is 0 our project is a sucess)
+ * main - A program that prints different computer types
+ * return: 0(sucess)
  */
 int main(void)
 {
-char a;
-int b;
-long int c;
-long long int d;
+char c;
+int i;
+long l;
+long long ll;
 float f;
-
-printf("Size of char: %lu bytes\n", (unsigned long)sizeof(a));
-printf("Size of int: %lu bytes\n", (unsigned long)sizeof(b));
-printf("Size of long: %lu bytes\n", (unsigned long)sizeof(c));
-printf("Size of long long: %lu bytes\n", (unsigned long)sizeof(d));
+printf("Size of char: %lu bytes\n", (unsigned long)sizeof(c));
+printf("Size of int: %lu bytes\n", (unsigned long)sizeof(i));
+printf("Size of long: %lu bytes\n", (unsigned long)sizeof(l));
+printf("Size of long long: %lu bytes\n", (unsigned long)sizeof(ll));
 printf("Size of float: %lu bytes\n", (unsigned long)sizeof(f));
 return (0);
 }
