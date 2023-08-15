@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main -This is a program thayt prints all possible combinations of two two-digit numbers
+ * main - Program prints all possible combinations of two two-digit numbers
  * Return: Always 0 (Success)
  */
 int main(void)
